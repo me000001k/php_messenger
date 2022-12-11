@@ -1,0 +1,98 @@
+
+.title-mess {
+    text-align: center;
+    margin: 10px;
+}
+
+.mes-form {
+    margin: 20px;
+    text-align: center;
+}
+
+.mes-write {
+    padding: 5px;
+    width: 300px;
+    height: 50px;
+    border: 3px solid #978fc9;
+    border-radius: 25px;
+    resize: none;
+}
+
+.mes-btn {
+    width: 100px;
+    height: 30px;
+    background-color: #6A5ACD;
+    color: white;
+    border: 1px solid white;
+    border-radius: 100px;
+}
+
+.mes-btn:hover {
+    background-color: #978fc9;
+}
+
+.one-mess {
+    background-color: #98b8eb;
+    border: 1px solid #98b8eb;
+    border-radius: 10px;
+}
+
+ul {
+    text-decoration: none;
+    width: 600px;
+}
+
+ul li {
+    padding: 10px;
+}
+
+.owner {
+    color: #d45d69;
+    border-bottom: 1px solid #6A5ACD;
+}
+
+.sender {
+    color: blue;
+    border-bottom: 1px solid #6A5ACD;
+}
+
+.message {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.time {
+    font-size: 14px;
+}
+
+@media screen and (max-width: 600px) {
+    .mes-write {
+        width: 200px;
+        height: 50px;
+    }
+    
+    .mes-form {
+        text-align: left; 
+    }
+    
+    .one-mess {
+        width: 300px;
+    }
+    
+    .owner {
+    font-size: 12px;
+    }
+    
+    .message {
+        font-size: 16px;
+    }
+    
+    .sender {
+    font-size: 12px;
+    }
+    
+    .time {
+        font-size: 10px;
+    }
+}

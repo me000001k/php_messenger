@@ -1,0 +1,30 @@
+.inform {
+    margin: 10px;
+    text-align: center;
+}
+
+.log-form {
+    margin: 30px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.window {
+    width: 200px;
+    height: 25px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    background-color: #6A5ACD;
+    color: white;
+    border: 1px solid white;
+    border-radius: 100px;
+}
+
+.button:hover {
+    background-color: #978fc9;
+}

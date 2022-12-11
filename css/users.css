@@ -1,0 +1,64 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: gray;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 10px;
+}
+
+.users-list {
+    font-size: 20px;
+    margin: 30px;
+    padding: 10px;
+    width: 350px;
+    border: 1px solid #d0cce8;
+    border-radius: 25px;
+    background-color: #d0cce8;
+}
+
+.title-users {
+    text-align: center;
+}
+
+.users {
+    text-align: justify;
+}
+
+.write {
+    padding: 5px;
+    margin-left: 30px;
+    font-size: 12px;
+    background-color: #dcadf7;
+    border: 1px solid #dcadf7;
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .users-list {
+        font-size: 14px;
+        margin: 10px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .title-users {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .write {
+        font-size: 10px;
+        padding: 2px;
+    }
+}
